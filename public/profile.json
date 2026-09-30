@@ -1,0 +1,237 @@
+{
+  "name": "Nguyễn Khải Nam",
+  "role": "DevOps Engineer",
+  "tagline": "I keep production boring — reliable pipelines, observable systems and infrastructure that scales without drama.",
+  "summary": "DevOps Engineer with 1+ year of hands-on experience. I operate ~76 production servers running Docker-based microservices and blockchain full nodes, build CI/CD with Jenkins and GitHub Actions, run Prometheus/Grafana observability, and automate incident triage with AI agents. Co-author of two Q1 journal papers on route optimization.",
+  "focus": [
+    "Docker",
+    "CI/CD",
+    "Observability",
+    "AWS"
+  ],
+  "status": "Open to DevOps / SRE opportunities",
+  "location": "Ho Chi Minh City, Vietnam",
+  "contact": {
+    "email": "khainam23@gmail.com",
+    "phone": "0337 209 580",
+    "github": "https://github.com/khainam23"
+  },
+  "cv": "/Cv_NguyenKhaiNam.pdf",
+  "stats": [
+    {
+      "value": "~76",
+      "label": "Production servers managed"
+    },
+    {
+      "value": "12K",
+      "label": "Concurrent users load-tested"
+    },
+    {
+      "value": "3",
+      "label": "Environments: Dev / QA / Prod"
+    },
+    {
+      "value": "2",
+      "label": "Q1 publications"
+    }
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "Nexsoft Technology",
+      "period": "05/2026 – Present",
+      "current": true,
+      "summary": "Infrastructure, CI/CD, monitoring, blockchain operations and load testing for a multi-tier production platform.",
+      "highlights": [
+        "Operate ~76 production servers running Docker-based microservices and blockchain (Avalanche) full nodes.",
+        "Build and maintain Jenkins CI/CD pipelines across Dev, QA and Prod environments.",
+        "Run monitoring & alerting with Prometheus, Grafana, Beszel and Uptime Kuma for infrastructure and critical services.",
+        "Manage Nginx reverse proxies, cloud integrations and production incidents to keep systems reliable.",
+        "Load-tested with Docker Swarm, validating capacity for 12,000 concurrent users across 3 servers.",
+        "Built AI agents on the Claude API with MCP tool integrations and context guardrails to triage bug reports and auto-resolve simple critical incidents."
+      ],
+      "tags": [
+        "Jenkins",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "Nginx",
+        "Docker Swarm",
+        "Claude API",
+        "MCP"
+      ]
+    },
+    {
+      "title": "Full-Stack Developer (DevOps & Automation)",
+      "company": "Bmate",
+      "period": "09/2025 – 05/2026",
+      "summary": "Owned deployment automation, observability and production stability for internal systems.",
+      "highlights": [
+        "Built GitHub Actions pipelines to automate data flows and deployments, cutting manual operations.",
+        "Containerized workloads and tuned performance, significantly reducing processing time and resource usage.",
+        "Set up observability with Prometheus, Grafana, Loki and Uptime Kuma for faster incident response.",
+        "Diagnosed and resolved production issues end-to-end, reducing downtime.",
+        "Secured internal services and dashboards behind Nginx and Cloudflare access control.",
+        "Drove standardization through CI/CD and infrastructure-as-code practices."
+      ],
+      "tags": [
+        "GitHub Actions",
+        "Docker",
+        "Loki",
+        "Cloudflare",
+        "Nginx",
+        "IaC"
+      ]
+    },
+    {
+      "title": "Full-Stack Freelancer",
+      "company": "Self-employed",
+      "period": "04/2025 – 05/2026",
+      "summary": "Full-cycle delivery: development, deployment, client communication, testing and maintenance.",
+      "highlights": [
+        "Agribank chatbot — Business Analyst & Project Manager.",
+        "Osasi CRM — Developer.",
+        "IELTS 4-skills learning platform — BA, Developer & Tester.",
+        "Launched public websites maikashop.vn and mapkitchens.com from development to production."
+      ],
+      "tags": [
+        "React",
+        "Laravel",
+        "Spring Boot",
+        "Deployment"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Examix",
+      "description": "A minimalist, fast platform for creating exam questions.",
+      "highlights": [
+        "Deployed on AWS ECS with container orchestration; Portainer for container management.",
+        "Uptime Kuma health checks and Beszel infrastructure monitoring.",
+        "Umami analytics as a privacy-friendly alternative to GA4."
+      ],
+      "tags": [
+        "AWS ECS",
+        "Portainer",
+        "Uptime Kuma",
+        "Beszel",
+        "Umami"
+      ],
+      "url": "https://examix.vn"
+    },
+    {
+      "name": "NotifyForYou",
+      "description": "Minimal 24/7 domain monitoring & instant alerting service.",
+      "highlights": [
+        "Checks domains every 60 seconds and alerts on outages or slow responses.",
+        "Node.js + SQLite, pluggable Email / Telegram / Discord providers.",
+        "Dockerized, auto-deployed to VPS via GitHub Actions."
+      ],
+      "tags": [
+        "Node.js",
+        "SQLite",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "url": "https://notify-for-you.examix.vn/"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Multi-objective Vehicle Routing Problem with Time Windows (VRPTW)",
+      "venue": "Applied Soft Computing",
+      "rank": "Q1",
+      "year": "2025"
+    },
+    {
+      "title": "Traveling Salesman Problem (TSP) optimization",
+      "venue": "IEEE Access",
+      "rank": "Q1",
+      "year": "2026",
+      "doi": "10.1109/ACCESS.2026.365622"
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Engineering in Information Technology",
+    "school": "Nong Lam University – Ho Chi Minh City",
+    "gpa": "3.5 / 4.0"
+  },
+  "skills": [
+    {
+      "group": "Cloud & Infrastructure",
+      "items": [
+        "AWS",
+        "Terraform",
+        "Linux"
+      ]
+    },
+    {
+      "group": "CI/CD & Automation",
+      "items": [
+        "GitHub Actions",
+        "Jenkins"
+      ]
+    },
+    {
+      "group": "Containers & Orchestration",
+      "items": [
+        "Docker",
+        "Docker Swarm",
+        "Kubernetes",
+        "Portainer"
+      ]
+    },
+    {
+      "group": "Networking & Security",
+      "items": [
+        "Nginx",
+        "Traefik",
+        "Cloudflare"
+      ]
+    },
+    {
+      "group": "Monitoring & Observability",
+      "items": [
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Graylog",
+        "Beszel",
+        "Uptime Kuma",
+        "Dozzle"
+      ]
+    },
+    {
+      "group": "Messaging & Streaming",
+      "items": [
+        "Apache Kafka",
+        "Pub/Sub"
+      ]
+    },
+    {
+      "group": "Databases & Caching",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "SQL Server",
+        "Redis"
+      ]
+    },
+    {
+      "group": "Languages & Frameworks",
+      "items": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "PHP",
+        "FastAPI",
+        "Spring Boot",
+        "Laravel",
+        "React / Next.js",
+        "Angular"
+      ]
+    }
+  ]
+}
