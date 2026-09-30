@@ -104,37 +104,82 @@
   ],
   "projects": [
     {
-      "name": "Examix",
-      "description": "A minimalist, fast platform for creating exam questions.",
+      "name": "Zero to Hero",
+      "featured": true,
+      "role": "Lead DevOps Engineer",
+      "status": "Live · Open Beta",
+      "description": "A free 2.5D pixel-art action MMORPG for PC and Android, with PC and mobile players on the same shared game servers.",
       "highlights": [
-        "Deployed on AWS ECS with container orchestration; Portainer for container management.",
-        "Uptime Kuma health checks and Beszel infrastructure monitoring.",
-        "Umami analytics as a privacy-friendly alternative to GA4."
+        "Main DevOps engineer, responsible for keeping the live game servers running and healthy.",
+        "Handle production incidents end-to-end, from triage and root cause to the fix and follow-up.",
+        "Keep the servers stable through a fast Open Beta release cycle, with several client and server builds shipped per week.",
+        "Run monitoring and routine maintenance for a real-time, always-online multiplayer world."
+      ],
+      "tags": [
+        "Game servers",
+        "Linux",
+        "Docker",
+        "Monitoring",
+        "Incident response"
+      ],
+      "url": "https://playz2h.com/"
+    },
+    {
+      "name": "Examix",
+      "role": "Builder & Operator",
+      "status": "Live",
+      "description": "An exam-authoring platform for Vietnamese teachers, with a question bank, OMR answer-sheet grading and AI assistance.",
+      "highlights": [
+        "Deployed on AWS ECS, with Portainer for container management.",
+        "Uptime Kuma health checks and Beszel host metrics catch outages before users notice.",
+        "Self-hosted Umami analytics as a privacy-friendly, cookie-free replacement for GA4."
       ],
       "tags": [
         "AWS ECS",
+        "Docker",
         "Portainer",
         "Uptime Kuma",
         "Beszel",
         "Umami"
       ],
-      "url": "https://examix.vn"
+      "url": "https://examix.vn/"
     },
     {
       "name": "NotifyForYou",
-      "description": "Minimal 24/7 domain monitoring & instant alerting service.",
+      "role": "Solo developer",
+      "status": "Live",
+      "description": "A minimal 24/7 uptime monitor: enter a domain, get an email the moment it goes down.",
       "highlights": [
-        "Checks domains every 60 seconds and alerts on outages or slow responses.",
-        "Node.js + SQLite, pluggable Email / Telegram / Discord providers.",
-        "Dockerized, auto-deployed to VPS via GitHub Actions."
+        "Checks every 60s and retries before alerting, which cuts false alarms from transient blips.",
+        "Debounced alerts, one per real incident, with recovery notices and up-since tracking.",
+        "Pluggable notifiers (SMTP, Telegram, Discord); Node.js + SQLite.",
+        "GitHub Actions builds the Docker image and ships it to a VPS over SSH for one-click deploys."
       ],
       "tags": [
         "Node.js",
         "SQLite",
         "Docker",
-        "GitHub Actions"
+        "GitHub Actions",
+        "SMTP"
       ],
       "url": "https://notify-for-you.examix.vn/"
+    },
+    {
+      "name": "DevOpsPro",
+      "role": "Solo developer",
+      "status": "Live",
+      "description": "A bilingual (VI/EN) landing page for my DevOps consulting and 1-on-1 mentoring services.",
+      "highlights": [
+        "Vite static site on Vercel, with a serverless contact form sending mail via Nodemailer.",
+        "SEO-ready: structured data, Open Graph, sitemap, hreflang and hardened security headers."
+      ],
+      "tags": [
+        "Vite",
+        "Vercel",
+        "Serverless",
+        "SEO"
+      ],
+      "url": "https://devopspro.examix.vn/"
     }
   ],
   "publications": [

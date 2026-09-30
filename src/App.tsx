@@ -6,6 +6,7 @@ import About from './sections/About'
 import Contact from './sections/Contact'
 import Experience from './sections/Experience'
 import Hero from './sections/Hero'
+import Infra from './sections/Infra'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
 
@@ -22,6 +23,7 @@ export default function App() {
       <main>
         <Hero p={p} />
         <About p={p} />
+        <Infra />
         <Experience items={p.experience} />
         <Projects items={p.projects} />
         <Skills groups={p.skills} />

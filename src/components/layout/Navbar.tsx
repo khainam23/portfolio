@@ -3,6 +3,7 @@ import { cn } from '../../lib/utils'
 
 const LINKS = [
   ['#about', 'About'],
+  ['#infra', 'Infra'],
   ['#experience', 'Experience'],
   ['#projects', 'Projects'],
   ['#skills', 'Skills'],
